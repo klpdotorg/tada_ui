@@ -104,7 +104,79 @@ body {
   border-radius: 50%;
 }
 
+/* custom */
 .navbar-white {
   background-color: #ffffff;
   border-color: #ffffff;
 }
+
+.button {
+  font-size: 75%;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  cursor: pointer;
+  outline: none;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.2) inset;
+  position: relative;
+  background-color: #3891e3;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.button:hover, .button:focus {
+  box-shadow: none;
+  top: 1px; 
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 5px;
+}
+
+/*-------------------------------------*/
+/*
+// COLORS
+
+// color: base font
+$font-base-color: #5F5F5F;
+
+// colors: brand
+$brand-orange: #ec6608;
+$brand-green: #26b262;
+$brand-blue: #3891e3;
+$brand-turquoise: #24b2b6;
+$brand-purple: #7575bc;
+$brand-red: #cb0012;
+
+// colors: common
+$black: #000;
+$white: #fff;
+$grey-mist: #f6f6f6;
+$grey-cloud: #d8d8d8;
+$grey-silver: #bbb;
+$grey-steel: #898989;
+$grey-gravel: #4d4d4d;
+
+$red-mild: #e17e5b;
+$maroon: #a31460;
+$pink-salmon: #f87c84;
+
+$yellow-mild: #ffeda0;
+$orange-mild: lighten($brand-orange, 20%);
+
+$green-pista: #addd8e;
+$green-leaf: #44c28c;
+
+$blue-ink: #2c3e50;
+$blue-sky: lighten($brand-blue, 32%);
+$purple-amethyst: #7b7795;
+
+// colors - links
+$link-color: $brand-blue;
+$link-hover-color: lighten($brand-blue, 15%);
+
+*/
