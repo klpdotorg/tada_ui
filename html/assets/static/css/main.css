@@ -128,8 +128,75 @@ body {
 }
 
 .treeview {
-  padding-top: 20px;
+  padding-top: 40px;
 }
+
+.inst-tabs {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.nav .nav-tab{
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+  color: #ffffff;
+}
+
+/*http://codepen.io/marifrahman/pen/aAEpD*/
+.tab-content{
+  padding:3px 0px 0px 8px; 
+  border-top: 1px solid #ec6608;
+  margin-left:1px;
+}
+.box-shadow(@shadow: 0 1px 3px rgba(0,0,0,.25)) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+
+/* tab color */
+.nav-tabs>li>a {
+    color:#fff;
+}
+
+/* active tab color */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: #fff;
+}
+
+#treetoggler { 
+  position: fixed; 
+  top: 26%;
+  left:1%; 
+  z-index: 99999;
+}
+
+#treetoggler a:hover { 
+  background: #222;
+  color: #fff; 
+}
+
+#secondary-menu {
+  padding-right: 10px;
+}
+
+.form-heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #3891e3;
+  font-size: 120%;
+  padding-left: 10px;
+}
+
+/*-------------------------------------*/
+/* HEADINGS */
+.heading-border:after {
+  content: '';
+  display: block;
+  width: 400px;
+  height: 2px;
+  background-color: #3891e3; }
+
+
 /*-------------------------------------*/
 /*
 // COLORS

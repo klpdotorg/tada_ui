@@ -1,4 +1,8 @@
 $(function() {
+    $("a[data-toggle='tab']").click(function(e){
+        $(".tab-content").css("border-top-color",$(this).css('backgroundColor'));
+    });
+
 
     $("#menu-toggle").click(function(e) {
           e.preventDefault();
@@ -7,26 +11,31 @@ $(function() {
 
     var defaultData = [
     {
+        id: 1234,
         text: 'Bangalore',
         href: '#1234',
-        tags: ['4'],
+        tags: ['0'],
         nodes: [
           {
+            id: 12341,
             text: 'Bangalore North',
             href: '#12341',
-            tags: ['2'],
+            tags: ['0'],
             nodes: [
               {
+                id: 123411,
                 text: 'Yelahanka',
                 href: '#123411',
                 tags: ['0'],
                 nodes: [
                     {
+                        id: 1234111,
                         text: 'GKLPS Yelahanka',
                         href: '#123411',
                         tags: ['0']
                     },
                     {
+                        id: 1234112,
                         text: 'GULPS Yelahanka',
                         href: '#123412',
                         tags: ['0']
@@ -34,18 +43,21 @@ $(function() {
                 ]
               },
               {
+                id: 123412,
                 text: 'Yeshwantpur',
                 href: '#123412',
                 tags: ['0'],
                 nodes: [
                     {
+                        id: 1234121,
                         text: 'GKLPS Yeshwantpur',
-                        href: '#123421',
+                        href: '#1234121',
                         tags: ['0']
                     },
                     {
+                        id: 1234122,
                         text: 'GULPS Yeshwantpur',
-                        href: '#123422',
+                        href: '#1234122',
                         tags: ['0']
                     }
                 ]
@@ -53,6 +65,7 @@ $(function() {
             ]
           },
           {
+            id: 12342,
             text: 'Bangalore Central',
             href: '12342',
             tags: ['0']
@@ -60,36 +73,43 @@ $(function() {
         ]
       },
       {
+        id: 1233,
         text: 'Mysore',
         href: '#1233',
         tags: ['0']
       },
       {
+        id: 1222,
         text: 'Yadgir',
         href: '#1222',
          tags: ['0']
       },
       {
+        id: 1221,
         text: 'Belgaum',
         href: '#1221',
         tags: ['0'],
         nodes: [
           {
+            id:12351,
             text: 'Belgaum North',
             href: '#12341',
-            tags: ['2'],
+            tags: ['0'],
             nodes: [
               {
+                id:123511,
                 text: 'Yelahanka',
                 href: '#123411',
                 tags: ['0'],
                 nodes: [
                     {
+                        id:1235111,
                         text: 'GKLPS Yelahanka',
                         href: '#123411',
                         tags: ['0']
                     },
                     {
+                        id:1235112,
                         text: 'GULPS Yelahanka',
                         href: '#123412',
                         tags: ['0']
@@ -97,16 +117,19 @@ $(function() {
                 ]
               },
               {
+                id:123512,
                 text: 'Yeshwantpur',
                 href: '#123412',
                 tags: ['0'],
                 nodes: [
                     {
+                        id:1235121,
                         text: 'GKLPS Yeshwantpur',
                         href: '#123421',
                         tags: ['0']
                     },
                     {
+                        id:1235122,
                         text: 'GULPS Yeshwantpur',
                         href: '#123422',
                         tags: ['0']
@@ -116,6 +139,7 @@ $(function() {
             ]
           },
           {
+            id:12352,
             text: 'Belgaum Central',
             href: '12342',
             tags: ['0']
@@ -125,7 +149,7 @@ $(function() {
     ];
         
     $('#treeview_side').treeview({
-        color: "#428bca",
+        color: "#333333",
         enableLinks: true,
         data: defaultData,
         borderColor: "#f5f5f5",
@@ -229,4 +253,7 @@ $(function() {
         $('#btn-enable-all').on('click', function (e) {
           $disabledTree.treeview('enableAll', { silent: $('#chk-disable-silent').is(':checked') });
         });
+        /*Expand and select*/
+        $('#treeview_side').treeview('expandNode', [ 1, { levels: 2, silent: true } ]);
+        $('#treeview_side').treeview('selectNode', [ 3, { silent: true } ]);
 });
