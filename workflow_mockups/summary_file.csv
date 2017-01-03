@@ -1,89 +1,89 @@
 PRESCHOOL DATA SUMMARY
-User|Student-C|Student-U|Student-D|School-C|School-U|School-D|Staff-C|Staff-U|Staff-D
-gayathri|64|3|1|0|0|0|0|0|0|
-manohar|15|59|0|0|0|0|0|0|0|
-mohsina|53|18|2|0|0|0|0|0|0|
-nalini|73|7|2|0|0|0|0|0|0|
-roopa|55|4|1|0|0|0|0|0|0|
+User,Student-C,Student-U,Student-D,School-C,School-U,School-D,Staff-C,Staff-U,Staff-D
+gayathri,64,3,1,0,0,0,0,0,0,
+manohar,15,59,0,0,0,0,0,0,0,
+mohsina,53,18,2,0,0,0,0,0,0,
+nalini,73,7,2,0,0,0,0,0,0,
+roopa,55,4,1,0,0,0,0,0,0,
 
 SCHOOL DATA SUMMARY
-User|Student-C|Student-U|Student-D|School-C|School-U|School-D|Staff-C|Staff-U|Staff-D
-ak2gdg|216|0|2|0|0|0|0|0|0|
-ak2kop|8|0|4|0|0|0|0|0|0|
-ak3gdg|66|2|0|0|0|0|0|0|0|
-ak3kop|0|0|1|0|0|0|0|0|0|
-ak4gdg|114|0|4|0|0|0|0|0|0|
-ak4kop|4|0|1|0|0|0|0|0|0|
-ak6gdg|230|1|8|0|0|0|0|0|0|
-ak6kop|4|0|2|0|0|0|0|0|0|
-ak7gdg|143|0|0|0|0|0|0|0|0|
+User,Student-C,Student-U,Student-D,School-C,School-U,School-D,Staff-C,Staff-U,Staff-D
+ak2gdg,216,0,2,0,0,0,0,0,0,
+ak2kop,8,0,4,0,0,0,0,0,0,
+ak3gdg,66,2,0,0,0,0,0,0,0,
+ak3kop,0,0,1,0,0,0,0,0,0,
+ak4gdg,114,0,4,0,0,0,0,0,0,
+ak4kop,4,0,1,0,0,0,0,0,0,
+ak6gdg,230,1,8,0,0,0,0,0,0,
+ak6kop,4,0,2,0,0,0,0,0,0,
+ak7gdg,143,0,0,0,0,0,0,0,0,
 
 ASSESSMENT SUMMARY
 
 Mallur Anganwadi
 
 Pretest (4-6); Type:student; No.of Questions:62
-User|Correct|Incorrect|Verified|Rectified
-gayathri|37|0|22|0
-mohsina|47|18|17|0
-nalini|62|0|54|0
-roopa|54|0|36|18
+User,Correct,Incorrect,Verified,Rectified
+gayathri,37,0,22,0
+mohsina,47,18,17,0
+nalini,62,0,54,0
+roopa,54,0,36,18
 
 Pretest (2-4); Type:student; No.of Questions:52
-User|Correct|Incorrect|Verified|Rectified
-gayathri|64|1|50|0
-mohsina|80|8|49|1
-nalini|112|1|69|2
-roopa|71|2|82|9
+User,Correct,Incorrect,Verified,Rectified
+gayathri,64,1,50,0
+mohsina,80,8,49,1
+nalini,112,1,69,2
+roopa,71,2,82,9
 
 Reading-Mundaragi
 
 Class 3 Pretest; Type:student; No.of Questions:3
-User|Correct|Incorrect|Verified|Rectified
-ak2gdg|790|17|555|33
-ak3gdg|392|27|332|19
-ak4gdg|329|18|471|15
-ak6gdg|418|20|495|13
-ak7gdg|491|21|457|23
+User,Correct,Incorrect,Verified,Rectified
+ak2gdg,790,17,555,33
+ak3gdg,392,27,332,19
+ak4gdg,329,18,471,15
+ak6gdg,418,20,495,13
+ak7gdg,491,21,457,23
 
 Class 4 Pretest; Type:student; No.of Questions:3
-User|Correct|Incorrect|Verified|Rectified
-ak2gdg|803|11|450|52
-ak3gdg|368|40|306|26
-ak4gdg|291|15|428|5
-ak6gdg|350|25|513|8
-ak7gdg|447|20|447|20
+User,Correct,Incorrect,Verified,Rectified
+ak2gdg,803,11,450,52
+ak3gdg,368,40,306,26
+ak4gdg,291,15,428,5
+ak6gdg,350,25,513,8
+ak7gdg,447,20,447,20
 
 Class 5 Pretest; Type:student; No.of Questions:3
-User|Correct|Incorrect|Verified|Rectified
-ak2gdg|673|19|492|28
-ak3gdg|340|25|293|15
-ak4gdg|261|6|395|10
-ak6gdg|369|17|408|14
-ak7gdg|427|20|389|20
+User,Correct,Incorrect,Verified,Rectified
+ak2gdg,673,19,492,28
+ak3gdg,340,25,293,15
+ak4gdg,261,6,395,10
+ak6gdg,369,17,408,14
+ak7gdg,427,20,389,20
 
 Reading-Kushtagi
 
 Class 3 Pretest; Type:student; No.of Questions:3
-User|Correct|Incorrect|Verified|Rectified
-ak2kop|4|0|185|16
-ak3kop|1|0|188|10
-ak4kop|1|0|105|10
-ak6kop|3|0|148|7
-ak7kop|1|1|167|4
+User,Correct,Incorrect,Verified,Rectified
+ak2kop,4,0,185,16
+ak3kop,1,0,188,10
+ak4kop,1,0,105,10
+ak6kop,3,0,148,7
+ak7kop,1,1,167,4
 
 Class 4 Pretest; Type:student; No.of Questions:3
-User|Correct|Incorrect|Verified|Rectified
-ak2kop|4|0|198|20
-ak3kop|0|0|155|12
-ak4kop|2|0|94|5
-ak6kop|3|0|249|15
-ak7kop|1|1|163|6
+User,Correct,Incorrect,Verified,Rectified
+ak2kop,4,0,198,20
+ak3kop,0,0,155,12
+ak4kop,2,0,94,5
+ak6kop,3,0,249,15
+ak7kop,1,1,163,6
 
 Class 5 Pretest; Type:student; No.of Questions:3
-User|Correct|Incorrect|Verified|Rectified
-ak2kop|1|0|224|41
-ak3kop|0|0|147|5
-ak4kop|1|0|122|2
-ak6kop|0|0|236|9
-ak7kop|0|0|250|6
+User,Correct,Incorrect,Verified,Rectified
+ak2kop,1,0,224,41
+ak3kop,0,0,147,5
+ak4kop,1,0,122,2
+ak6kop,0,0,236,9
+ak7kop,0,0,250,6
